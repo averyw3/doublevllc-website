@@ -1,31 +1,124 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Double V LLC</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Double V LLC</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="services.html">Services</a>
-      <a href="industries.html">Industries</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+/* ===========================
+   Double V LLC Website Styles
+   Professional, modern layout
+   =========================== */
 
-  <div class="container">
-    <h2>AI Automation for Everyday Businesses</h2>
-    <p>We help businesses streamline operations, reduce manual workload, and scale without adding headcount. From workflow automation to AI-powered customer support, our solutions integrate seamlessly into your existing systems.</p>
-    <button onclick="window.location.href='contact.html'">Get in Touch</button>
-  </div>
+/* General Body Styling */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
 
-  <footer>
-    <p>© 2026 Double V LLC | <a href="mailto:info@doublevllc.com" style="color:white;">info@doublevllc.com</a></p>
-  </footer>
-</body>
-</html>
+/* Header */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header img {
+    height: 60px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f4d03f; /* Accent color on hover */
+}
+
+/* Main Content */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+h2 {
+    border-bottom: 2px solid #003366;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+button, .btn {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover, .btn:hover {
+    background-color: #f4d03f;
+    color: #003366;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #003366;
+    color: white;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+
+/* Responsive Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Sections */
+section {
+    padding: 40px 0;
+}
+
+/* Links inside main content */
+main a {
+    color: #003366;
+    text-decoration: underline;
+}
+
+main a:hover {
+    color: #f4d03f;
+}
