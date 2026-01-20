@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Double V LLC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Double V LLC</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="industries.html">Industries</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>AI Automation for Everyday Businesses</h2>
+    <p>We help businesses streamline operations, reduce manual workload, and scale without adding headcount. From workflow automation to AI-powered customer support, our solutions integrate seamlessly into your existing systems.</p>
+    <button onclick="window.location.href='contact.html'">Get in Touch</button>
+  </div>
+
+  <footer>
+    <p>© 2026 Double V LLC | <a href="mailto:info@doublevllc.com" style="color:white;">info@doublevllc.com</a></p>
+  </footer>
+</body>
+</html>
